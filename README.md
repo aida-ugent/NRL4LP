@@ -1,27 +1,28 @@
-# Network Representation Learning for Link Prediction: Are we improving upon simple heuristics?
+# Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?
 
-This file contains the instructions on how to reproduce the experiments presented in the paper:
-*Network Representation Learning for Link Prediction: Are we improving upon simple heuristics?*
+This repository contains the instructions and materials necessary for reproducing the experiments presented in the 
+paper: *Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?*
 
 The repository is maintained by Alexandru Mara (alexandru.mara@ugent.be).
 
 ## Reproducing Experiments
 In order to reproduce the experiments presented in the paper the following steps are necessary:
 
-1. Download and install the EvalNE library as instructed by the authors [here](https://github.com/Dru-Mara/EvalNE)
-2. Download and install the implementations of the baseline methods reported in the manuscript. 
+1. Download and install the EvalNE library v0.3.2 as instructed by the authors [here](https://github.com/Dru-Mara/EvalNE)
+2. Download and install the implementations of the baseline methods reported in the 
+[manuscript](https://arxiv.org/abs/2002.11522). 
 We recommend that each method is installed in a unique virtual environment to ensure that the right 
 dependencies are used. 
 3. Download the datasets used in the experiments: 
 
-    * [StudentDB](http://adrem.ua.ac.be/smurfig), 
-    * [Facebook](https://snap.stanford.edu/data/egonets-Facebook.html), 
-    * [BlogCatalog](http://socialcomputing.asu.edu/datasets/BlogCatalog3), 
-    * [Flickr](http://socialcomputing.asu.edu/datasets/Flickr),
-    * [YouTube](http://socialcomputing.asu.edu/datasets/YouTube2),
-    * [GR-QC](https://snap.stanford.edu/data/ca-GrQc.html),
-    * [DBLP](https://snap.stanford.edu/data/com-DBLP.html),
-    * [PPI](http://snap.stanford.edu/node2vec/#datasets) and
+    * [StudentDB](http://adrem.ua.ac.be/smurfig)
+    * [Facebook](https://snap.stanford.edu/data/egonets-Facebook.html)
+    * [BlogCatalog](http://socialcomputing.asu.edu/datasets/BlogCatalog3) 
+    * [Flickr](http://socialcomputing.asu.edu/datasets/Flickr)
+    * [YouTube](http://socialcomputing.asu.edu/datasets/YouTube2)
+    * [GR-QC](https://snap.stanford.edu/data/ca-GrQc.html)
+    * [DBLP](https://snap.stanford.edu/data/com-DBLP.html)
+    * [PPI](http://snap.stanford.edu/node2vec/#datasets)
     * [Wikipedia](http://snap.stanford.edu/node2vec/#datasets)
 
 4. Modify the `.ini` configuration files from this folder to match the paths where the *datasets* are
@@ -39,3 +40,18 @@ evaluation through EvalNE. Once these methods are installed, the corresponding m
 to the root folder of the method and called from the `.ini` configuration file. These `main.py` files are 
 located in a `main_files` folder.
 
+
+## Citation ##
+If you have found our research useful, please consider citing our 
+[arxiv paper](https://arxiv.org/abs/2002.11522):
+
+```
+@misc{mara2020benchmarking,
+      title={Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?}, 
+      author={Alexandru Mara and Jefrey Lijffijt and Tijl De Bie},
+      year={2020},
+      eprint={2002.11522},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI}
+}
+```
