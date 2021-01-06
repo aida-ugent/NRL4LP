@@ -43,15 +43,16 @@ located in a `main_files` folder.
 
 ## Citation ##
 If you have found our research useful, please consider citing our 
-[arxiv paper](https://arxiv.org/abs/2002.11522):
+[paper](https://ieeexplore.ieee.org/document/9260030), which is also available on [arxiv](https://arxiv.org/abs/2002.11522):
 
 ```
-@misc{mara2020benchmarking,
-      title={Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?}, 
-      author={Alexandru Mara and Jefrey Lijffijt and Tijl De Bie},
-      year={2020},
-      eprint={2002.11522},
-      archivePrefix={arXiv},
-      primaryClass={cs.SI}
-}
+@INPROCEEDINGS{9260030,
+  author={A. C. {Mara} and J. {Lijffijt} and T. d. {Bie}},
+  booktitle={2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)}, 
+  title={Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={138-147},
+  doi={10.1109/DSAA49011.2020.00026}}
 ```
