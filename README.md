@@ -51,8 +51,6 @@ If you have found our research useful, please consider citing our
   booktitle={2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)}, 
   title={Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?}, 
   year={2020},
-  volume={},
-  number={},
   pages={138-147},
   doi={10.1109/DSAA49011.2020.00026}}
 ```
