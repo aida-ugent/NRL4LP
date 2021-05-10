@@ -45,7 +45,7 @@ located in a `main_files` folder.
 If you have found our research useful, please consider citing our 
 [paper](https://ieeexplore.ieee.org/document/9260030), which is also available on [arxiv](https://arxiv.org/abs/2002.11522):
 
-```
+```bibtex
 @INPROCEEDINGS{9260030,
   author={A. C. {Mara} and J. {Lijffijt} and T. d. {Bie}},
   booktitle={2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)}, 
